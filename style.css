@@ -13,13 +13,15 @@ body{
     font-family: 'monserrat', sans-serif;
     min-height: 100%;
     margin: 10%;
+    /* overflow: hidden; */
 }
 
 .container{
+    margin-top: -50px;
     position: relative;
-    width: 48rem;
+    width: 58rem;
     max-width: 100%;
-    min-height: 30rem;
+    min-height: 35rem;
     background: #fff;
     border-radius: 0.62rem;
     overflow: hidden;
@@ -213,7 +215,7 @@ button:active {
 
     .container{
         width: auto;
-         max-width: 100%; 
+        max-width: 100%; 
         min-height: 85vh;
     }
 
@@ -230,9 +232,9 @@ button:active {
         margin-bottom: 50px;
     }
 
-    .sign-up{
-        /* margin-bottom: -40px; */
-    }
+    /* .sign-up{
+        margin-bottom: -40px;
+    } */
 
     .container.right-panel-active .sign-in{
         transform: translateY(115%);
@@ -248,12 +250,11 @@ button:active {
         width: 100%;
         height: 40%;
         left: 0;
-
         position: absolute;
-    top: 0;
-    overflow: hidden;
-    transition: transform 0.6s ease-in-out;
-    z-index: 100;
+        top: 0;
+        overflow: hidden;
+        transition: transform 0.6s ease-in-out;
+        z-index: 100;
     }
 
     .container.right-panel-active .overlay-left{

@@ -14,13 +14,6 @@ signInButton.addEventListener('click', () => {
     // signinDiv.style.display = "block";
 });
 
-// signUpButton.addEventListener('click', () => {
-//     main.classList.add("top-panel-active");
-// });
-
-// signInButton.addEventListener('click', () => {
-//     main.classList.remove("top-panel-active");
-// });
 
 
 
